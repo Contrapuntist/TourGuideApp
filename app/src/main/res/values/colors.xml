@@ -1,6 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#039be5</color>
+    <color name="colorPrimaryDark">#01579b</color>
+    <color name="colorLightGray">#e0e0e0</color>
+    <color name="colorAccent">#e53935</color>
+    <color name="colorAccent2">#c62828</color>
+    <color name="colorAccent3">#ff8a80</color>
+
+    <color name="canvasColor">#e3f2fd</color>
+
+    <!--{-->
+    <!--"palette": {-->
+    <!--"primary1Color": "#03a9f4",-->
+    <!--"accent1Color": "#e53935",-->
+    <!--"primary2Color": "#01579b",-->
+    <!--"primary3Color": "#e0e0e0",-->
+    <!--"accent2Color": "#c62828",-->
+    <!--"accent3Color": "#ff8a80",-->
+    <!--"borderColor": "rgba(0, 0, 0, 0.87)",-->
+    <!--"textColor": "#212121",-->
+    <!--"secondaryTextColor": "rgba(0, 0, 0, 0.26)",-->
+    <!--"canvasColor": "#e3f2fd",-->
+    <!--"alternateTextColor": "#b3e5fc",-->
+    <!--"disabledColor": "rgba(0, 0, 0, 0.54)"-->
+    <!--},-->
+    <!--"card": {-->
+    <!--"titleColor": "#212121",-->
+    <!--"subtitleColor": "#757575",-->
+    <!--"fontWeight": 400-->
+    <!--},-->
+    <!--"cardMedia": {-->
+    <!--"color": "#1565c0"-->
+    <!--},-->
+    <!--"cardText": {-->
+    <!--"textColor": "#424242"-->
+    <!--}-->
+    <!--}-->
 </resources>

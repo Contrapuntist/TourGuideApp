@@ -29,9 +29,12 @@ public class FavoritesFragment extends Fragment {
 
         final ArrayList<Location> favoritesList = new ArrayList<Location>();
 
-        favoritesList.add(new Location("Symphony Center", "Michigan Ave", "0", "it's an awesome place"));
-        favoritesList.add(new Location("Symphony Center", "Michigan Ave", "0", "it's an awesome place"));
-        favoritesList.add(new Location("Symphony Center", "Michigan Ave", "0", "it's an awesome place"));
+        favoritesList.add(new Location("Symphony Center", "Michigan Ave",
+                "0", "www.whatever.com","it's an awesome place", R.drawable.chicago_bean));
+        favoritesList.add(new Location("Symphony Center", "Michigan Ave",
+                "0", "www.whatever.com","it's an awesome place", R.drawable.chicago_bean));
+        favoritesList.add(new Location("Symphony Center", "Michigan Ave",
+                "0", "www.whatever.com","it's an awesome place", R.drawable.chicago_bean));
 
         LocationAdapter adapter = new LocationAdapter(getActivity(), favoritesList);
 
