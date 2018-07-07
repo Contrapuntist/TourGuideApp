@@ -1,9 +1,44 @@
 <resources>
     <string name="app_name">TourGuideApp</string>
+    <string name="more">More</string>
+    <string name="close">Close</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
+    <!-- CSO Data -->
     <string name="cso">Chicago Symphony Orchestra</string>
+    <string name="cso_phone">312-294-3000</string>
+    <string name="cso_address">220 S. Michigan Ave.\nChicago, IL 60604</string>
+    <string name="cso_web">www.cso.org</string>
+    <string name="cso_description">Founded in 1891, the Chicago Symphony Orchestra is consistently hailed as one of the greatest orchestras in the world.</string>
+
+    <!-- Blues Tour Data -->
+    <string name="blues_bus_tour">Chicago Jazz, Blues and Beyond Bus Tour</string>
+    <string name="blues_bus_tour_phone">312.350.1131</string>
+    <string name="blues_bus_tour_address">53 W Jackson Blvd #1357\nChicago, IL 60604</string>
+    <string name="blues_bus_tour_web">www.chicagodetours.com</string>
+    <string name="blues_bus_tour_description">See architectural landmarks of Chicago blues and jazz history in neighborhoods north to south while a highly trained, passionate tour guide shares forgotten stories of Chicago blues and jazz. </string>
+
+    <!-- Reckless Records Data -->
+    <string name="reckless_records">Reckless Records </string>
+    <string name="reckless_records_phone">773.404.5080</string>
+    <string name="reckless_records_address">3126 N Broadway\nChicago IL 60657</string>
+    <string name="reckless_records_web">www.reckless.com</string>
+    <string name="reckless_records_description">The record store that was in the movie, High Fidelity, featuring John Cusack.</string>
+
+    <!-- Broadway in Chicago Data -->
+    <string name="broadway_in_chicago">Broadway in Chicago</string>
+    <string name="broadway_in_chicago_phone">312.977.1700</string>
+    <string name="broadway_in_chicago_address">17 North State Street, Suite 810\nChicago, IL 60602</string>
+    <string name="broadway_in_chicago_web">www.broadwayinchicago.com</string>
+    <string name="broadway_in_chicago_description">Broadway In Chicago presents a full range of entertainment, including musicals and plays, on the stages of five of the finest theatres in Chicago’s Loop including the CIBC Theatre, Oriental Theatre, Cadillac Palace Theatre, the Auditorium Theatre of Roosevelt University and just off the Magnificent Mile, the Broadway Playhouse at Water Tower Place. Broadway In Chicago is best known for attracting pre-Broadway productions, highlights of those include THE PRODUCERS, SPAMALOT, MOVIN’ OUT, THE ADDAMS FAMILY, KINKY BOOTS and ON YOUR FEET, as well as long-run engagements including WICKED, Disney’s THE LION KING, THE BOOK OF MORMON, and HAMILTON to name a few</string>
+
+    <!-- Green Mill Cocktail Lounge Data -->
+    <string name="green_mill">Broadway in Chicago</string>
+    <string name="green_mill_phone">773.878.5552</string>
+    <string name="green_mill_address">4802 N. Broadway Ave.\nChicago, IL 60640</string>
+    <string name="bgreen_mill_web">www.greenmilljazz.com</string>
+    <string name="green_mill_description">Founded in 1907, the jazz clube has early associations with prohibition and Al Capone. Today, the Green Mill entertains audiences with a mix of jazz artists who perform music from 30s, 40s, etc. to the present.</string>
 
 </resources>

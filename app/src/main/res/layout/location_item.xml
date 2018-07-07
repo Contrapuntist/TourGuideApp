@@ -2,79 +2,117 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:card_view="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_list_view"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="vertical"
-    android:id="@+id/card_list_view">
+    android:orientation="vertical">
 
     <!-- A CardView that contains a TextView -->
     <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
         android:id="@+id/card_view"
-
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="8dp"
         android:background="#bbb"
         android:backgroundTint="@color/colorPrimaryDark"
-        android:padding="10dp"
-        card_view:cardCornerRadius="4dp">
+        card_view:cardCornerRadius="8dp">
 
         <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:id="@+id/card_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp">
 
             <ImageView
                 android:id="@+id/location_img"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
                 android:contentDescription="image of location"
                 android:scaleType="centerCrop"
                 tools:src="@drawable/chicago_bean" />
 
             <TextView
                 android:id="@+id/location_name"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/location_img"
-                android:layout_centerVertical="true"
+                android:layout_below="@+id/location_img"
                 android:fontFamily="@font/quicksand_bold"
                 android:paddingLeft="16dp"
                 android:paddingRight="16dp"
-                android:paddingTop="16dp"
-                android:textColor="#fff"
-                android:textSize="18sp"
+                android:paddingTop="8dp"
+                android:textAllCaps="true"
+                android:textColor="@color/lightBlueText"
+                android:textSize="20sp"
                 tools:text="Location name" />
 
             <TextView
                 android:id="@+id/location_address"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
                 android:layout_below="@id/location_name"
-                android:fontFamily="@font/quicksand_regular"
-                android:paddingBottom="16dp"
+                android:fontFamily="@font/quicksand_light"
                 android:paddingLeft="16dp"
-                android:paddingTop="4dp"
                 android:textColor="@android:color/white"
+                android:textSize="16sp"
                 tools:text="661 Hapsfield Lane\nChicago, IL 60089" />
 
             <TextView
                 android:id="@+id/location_web_address"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:layout_below="@id/location_address"
+                android:fontFamily="@font/quicksand_light"
+                android:linksClickable="true"
+                android:paddingLeft="16dp"
+                android:textColor="@android:color/white"
+                android:textColorLink="@color/colorPrimary"
+                android:textSize="16sp"
+                tools:text="www.google.com" />
 
             <TextView
                 android:id="@+id/location_phone"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:layout_below="@id/location_web_address"
+                android:fontFamily="@font/quicksand_light"
+                android:paddingBottom="4dp"
+                android:paddingLeft="16dp"
+                android:textColor="@android:color/white"
+                tools:text="312.222.2222" />
+
+            <TextView
+                android:id="@+id/more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/location_img"
+                android:layout_alignRight="@id/location_address"
+                android:fontFamily="@font/quicksand_bold"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="48dp"
+                android:text="more"
+                android:textAllCaps="true"
+                android:textColor="@color/lightBlueText"
+                android:textSize="18sp"
+                android:visibility="visible" />
 
             <TextView
                 android:id="@+id/location_description"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/location_address"
-                android:fontFamily="@font/quicksand_light"
+                android:layout_below="@id/location_phone"
+                android:fontFamily="@font/quicksand_regular"
+                android:paddingBottom="16dp"
+                android:paddingEnd="4dp"
+                android:paddingRight="4dp"
+                android:paddingStart="16dp"
+                android:paddingLeft="16dp"
+                android:paddingTop="4dp"
                 android:textColor="#fff"
+                android:textSize="16sp"
+                android:visibility="gone"
                 tools:text="@tools:sample/lorem/random" />
 
         </RelativeLayout>

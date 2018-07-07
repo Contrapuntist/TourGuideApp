@@ -6,8 +6,9 @@
     <color name="colorAccent">#e53935</color>
     <color name="colorAccent2">#c62828</color>
     <color name="colorAccent3">#ff8a80</color>
-
     <color name="canvasColor">#e3f2fd</color>
+    <color name="darkText">#212121</color>
+    <color name="lightBlueText">#b3e5fc</color>
 
     <!--{-->
     <!--"palette": {-->
