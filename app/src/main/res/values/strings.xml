@@ -1,14 +1,11 @@
 <resources>
-    <string name="app_name">TourGuideApp</string>
-    <string name="more">More</string>
-    <string name="close">Close</string>
+    <string name="app_name">Musical Chicago</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Favorites -->
 
     <!-- CSO Data -->
     <string name="cso">Chicago Symphony Orchestra</string>
-    <string name="cso_phone">312-294-3000</string>
+    <string name="cso_phone">312.294.3000</string>
     <string name="cso_address">220 S. Michigan Ave.\nChicago, IL 60604</string>
     <string name="cso_web">www.cso.org</string>
     <string name="cso_description">Founded in 1891, the Chicago Symphony Orchestra is consistently hailed as one of the greatest orchestras in the world.</string>
@@ -19,6 +16,14 @@
     <string name="blues_bus_tour_address">53 W Jackson Blvd #1357\nChicago, IL 60604</string>
     <string name="blues_bus_tour_web">www.chicagodetours.com</string>
     <string name="blues_bus_tour_description">See architectural landmarks of Chicago blues and jazz history in neighborhoods north to south while a highly trained, passionate tour guide shares forgotten stories of Chicago blues and jazz. </string>
+
+    <!-- Jay Pritzker Data -->
+    <string name="jay_pritzker">Jay Pritzker Pavilion</string>
+    <string name="jay_pritzker_phone">312.742.1168</string>
+    <string name="jay_pritzker_address">201 E. Randolph St.\nChicago, IL 60601</string>
+    <string name="jay_pritzker_web">www.jaypritzkerpavilion.com</string>
+    <string name="jay_pritzker_description">The Jay Pritzker Pavilion is a premier outdoor amphitheatre located in Millennium Park, which was designed by legendary architect Frank Gehry.</string>
+
 
     <!-- Reckless Records Data -->
     <string name="reckless_records">Reckless Records </string>
@@ -32,13 +37,73 @@
     <string name="broadway_in_chicago_phone">312.977.1700</string>
     <string name="broadway_in_chicago_address">17 North State Street, Suite 810\nChicago, IL 60602</string>
     <string name="broadway_in_chicago_web">www.broadwayinchicago.com</string>
-    <string name="broadway_in_chicago_description">Broadway In Chicago presents a full range of entertainment, including musicals and plays, on the stages of five of the finest theatres in Chicago’s Loop including the CIBC Theatre, Oriental Theatre, Cadillac Palace Theatre, the Auditorium Theatre of Roosevelt University and just off the Magnificent Mile, the Broadway Playhouse at Water Tower Place. Broadway In Chicago is best known for attracting pre-Broadway productions, highlights of those include THE PRODUCERS, SPAMALOT, MOVIN’ OUT, THE ADDAMS FAMILY, KINKY BOOTS and ON YOUR FEET, as well as long-run engagements including WICKED, Disney’s THE LION KING, THE BOOK OF MORMON, and HAMILTON to name a few</string>
+    <string name="broadway_in_chicago_description">Broadway In Chicago presents a full range of entertainment, including musicals and plays, at the finest theatres in Chicago including the CIBC Theatre, Oriental Theatre, Cadillac Palace Theatre, the Auditorium Theatre of Roosevelt University and the Broadway Playhouse at Water Tower Place.</string>
+
+
+    <!-- Concerts -->
+
+    <!-- Lollapalooza -->
+    <string name="lollapalooza">Lollapalooza</string>
+    <string name="lollapalooza_location">Grant Park</string>
+    <string name="lollapalooza_web">www.lollapalooza.com</string>
+    <string name="lollapalooza_date">August 2&#8211;5, 2018\n11:30 AM</string>
+
+    <!--Ozzy Osbourne -->
+    <string name="ozzy">Ozzy Osbourne</string>
+    <string name="ozzy_location">Hollywood Casino Amphitheatre</string>
+    <string name="ozzy_web">www.livenation.com</string>
+    <string name="ozzy_date">Sept. 21, 2018\n7:30 PM</string>
+
+    <!-- Black Label Society-->
+    <string name="black_label">Black Label Society</string>
+    <string name="black_label_location">The Forge</string>
+    <string name="black_label_web">www.ticketmaster.com</string>
+    <string name="black_label_date">July 17, 2018\n7:30 PM</string>
+
+    <!-- Viva Latino Live -->
+    <string name="viva_latino">Viva Latino Live</string>
+    <string name="viva_latino_location">Allstate Arena</string>
+    <string name="viva_latino_web">www.ticketmaster.com</string>
+    <string name="viva_latino_date">Aug. 23, 2018\n8:00 PM</string>
+
+    <!--Dining -->
+
+    <!-- Hard Rock Cafe -->
+    <string name="hard_rock_cafe">Hard Rock Cafe</string>
+    <string name="hard_rock_cafe_phone">312.943.2252</string>
+    <string name="hard_rock_cafe_address">63 West Ontario\nChicago, IL 60654</string>
+    <string name="hard_rock_cafe_web">www.hardrock.com/cafes/chicago</string>
+
+    <!-- House of Blues -->
+    <string name="house_of_blues">House of Blues</string>
+    <string name="house_of_blues_phone">312.943.2252</string>
+    <string name="house_of_blues_address">329 N. Dearborn St\nChicago, IL 60654</string>
+    <string name="house_of_blues_web">www.houseofblues.com/chicago/restaurant</string>
+
+    <!-- Buddy Guy Legends -->
+    <string name="buddy_guy_legends">Buddy Guy Legends</string>
+    <string name="buddy_guy_legends_phone">312.427.1190</string>
+    <string name="buddy_guy_legends_address">700 S. Wabash\nChicago, IL 60605</string>
+    <string name="buddy_guy_legends_web">www.buddyguy.com/</string>
+
+    <!-- Venues -->
 
     <!-- Green Mill Cocktail Lounge Data -->
-    <string name="green_mill">Broadway in Chicago</string>
+    <string name="green_mill">Green Mill Cocktail Lounge</string>
     <string name="green_mill_phone">773.878.5552</string>
     <string name="green_mill_address">4802 N. Broadway Ave.\nChicago, IL 60640</string>
-    <string name="bgreen_mill_web">www.greenmilljazz.com</string>
-    <string name="green_mill_description">Founded in 1907, the jazz clube has early associations with prohibition and Al Capone. Today, the Green Mill entertains audiences with a mix of jazz artists who perform music from 30s, 40s, etc. to the present.</string>
+    <string name="green_mill_web">www.greenmilljazz.com</string>
+
+    <!-- The Empty Bottle -->
+    <string name="empty_bottle">The Empty Bottle</string>
+    <string name="empty_bottle_phone">773.276.3600</string>
+    <string name="empty_bottle_address">1035 N Western Ave\nChicago, IL 60622</string>
+    <string name="empty_bottle_web">www.emptybottle.com</string>
+
+    <!-- Bottom Lounge -->
+    <string name="bottom_lounge">Bottom Lounge</string>
+    <string name="bottom_lounge_phone">312.666.6775</string>
+    <string name="bottom_lounge_address">1375 W Lake St.\nChicago, IL 60607</string>
+    <string name="bottom_lounge_web">www.bottomlounge.com/</string>
 
 </resources>

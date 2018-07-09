@@ -22,8 +22,8 @@ import java.util.List;
 
 public class LocationAdapter extends ArrayAdapter<Location> {
 
+    ImageView locationImage;
     TextView locationDescription;
-    TextView showMore;
 
     public LocationAdapter (Activity context, ArrayList<Location> locations) {
         super(context, 0, locations);
@@ -32,7 +32,6 @@ public class LocationAdapter extends ArrayAdapter<Location> {
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         // return super.getView(position, convertView, parent);
-
         View locationItemView = convertView;
 
         if (locationItemView == null) {
@@ -42,6 +41,7 @@ public class LocationAdapter extends ArrayAdapter<Location> {
 
 
         Location currentLocation = getItem(position);
+
 
         TextView locationName = (TextView) locationItemView.findViewById(R.id.location_name);
         locationName.setText(currentLocation.getName());
@@ -56,9 +56,15 @@ public class LocationAdapter extends ArrayAdapter<Location> {
         locationPhone.setText(currentLocation.getPhone());
 
         locationDescription = (TextView) locationItemView.findViewById(R.id.location_description);
-        locationDescription.setText(currentLocation.getDescription());
 
-        final ImageView locationImage = (ImageView) locationItemView.findViewById(R.id.location_img);
+        if (currentLocation.getDescription() != null) {
+            locationDescription.setText(currentLocation.getDescription());
+            locationDescription.setVisibility(View.VISIBLE);
+        } else {
+            locationDescription.setVisibility(View.GONE);
+        }
+
+        locationImage = (ImageView) locationItemView.findViewById(R.id.location_img);
 
         if (currentLocation.hasImageId()) {
 
@@ -69,23 +75,6 @@ public class LocationAdapter extends ArrayAdapter<Location> {
         } else {
              locationImage.setVisibility(View.GONE);
         }
-
-        showMore = locationItemView.findViewById(R.id.more);
-
-        locationItemView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (locationDescription.getVisibility() == View.GONE ) {
-                    Log.i("Location Adapter", "description gone");
-                    Log.i("Description", "" + locationDescription.getText());
-                    locationDescription.setVisibility(View.VISIBLE);
-                } else if (locationDescription.getVisibility() == View.VISIBLE ) {
-                    locationDescription.setVisibility(View.GONE);
-                }
-            }
-        });
-
-
 
         return locationItemView;
     }

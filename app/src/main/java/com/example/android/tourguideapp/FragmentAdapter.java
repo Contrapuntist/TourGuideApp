@@ -10,7 +10,7 @@ import android.support.v4.app.ListFragment;
 public class FragmentAdapter extends FragmentPagerAdapter {
 
     final int PAGE_COUNT = 4;
-    private String tabTitles[] = new String[] { "Favorites", "Venues", "Food", "Events" };
+    private String tabTitles[] = new String[] { "Favorites", "Concerts", "Dining", "Venues" };
     private Context context;
 
 
@@ -22,13 +22,19 @@ public class FragmentAdapter extends FragmentPagerAdapter {
     public Fragment getItem(int position) {
         if (position == 0) {
             return new FavoritesFragment();
+        } else if (position == 1) {
+            return new ConcertsFragment();
+        } else if (position == 2) {
+            return new DiningFragment();
+        } else if (position == 3) {
+            return new VenuesFragment();
         }
         return null;
     }
 
     @Override
     public int getCount() {
-        return 1;
+        return PAGE_COUNT;
     }
 
     @Nullable

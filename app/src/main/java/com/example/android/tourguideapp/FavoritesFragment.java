@@ -35,6 +35,10 @@ public class FavoritesFragment extends Fragment {
 
         final ArrayList<Location> favoritesList = new ArrayList<Location>();
 
+        favoritesList.add(new Location(getString(R.string.jay_pritzker), getString(R.string.jay_pritzker_address),
+                getString(R.string.jay_pritzker_phone), getString(R.string.jay_pritzker_web),
+                getString(R.string.jay_pritzker_description), R.drawable.jay_pritzker_pavilion));
+
         favoritesList.add(new Location(getString(R.string.broadway_in_chicago), getString(R.string.broadway_in_chicago_address),
                 getString(R.string.broadway_in_chicago_phone), getString(R.string.broadway_in_chicago_web),
                 getString(R.string.broadway_in_chicago_description), R.drawable.chicago_skyline_dusk));
